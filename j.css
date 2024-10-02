@@ -1,0 +1,97 @@
+*{
+    margin: auto;
+}
+/* body{
+    background-color: aqua;
+} */
+/* #jumia{
+    width: 1080px;
+    height: 390px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+#jumia div img{
+    width: 170px;
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#jumia div{
+    float: left;
+    width: 170px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    transition: all 0.1s ease-in-out;
+}
+#jumia div:hover{
+    transform: scale(1.01);
+    background-color: white;
+    box-shadow: 0px 0px 7px 0px rgb(226, 225, 225);
+} */
+#items{
+    width: 1060;
+    height: 50px;
+    background-color: red;
+    margin-left: 140px;
+    margin-right: 290px;
+}
+#items div{
+    float: left;
+    padding: 8px;
+    width: 300px;
+    text-align: right;
+    color: white;
+}
+#items #items-right{
+    float: right;
+    text-align: right;
+}
+#items #items-left{
+    text-align: left;
+}
+#items #items-right button:hover{
+    transition: all 0.3 ease-in-out;
+    transform: scale(1.1);
+}
+#product{
+    background-color: white;
+    display: flex;
+    width: 1079px;
+    height: 320px;
+    overflow-x: scroll;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+#product::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+#product div{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgb(252, 246, 235);
+    margin-right: 10px;
+    padding: 5px;
+}
+#product div:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.005);
+    box-shadow: 0px 0px 7px 0px rgb(148, 147, 147);
+}
+#product div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+::selection{
+    color: brown;
+    background-color: yellow;
+}
